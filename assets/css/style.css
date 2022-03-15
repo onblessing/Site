@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"),
+        url("/assets/fonts/Montserrat-Medium.ttf") format("truetype"),
+        url("/assets/fonts/Montserrat-Bold.ttf") format("truetype"),
+        url("/assets/fonts/Montserrat-SemiBold.ttf") format("truetype"),
+        url("/assets/fonts/Montserrat-Black.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+.header_picture{
+    background: url("../img/Main.png") no-repeat center center / cover;
+    height: 1111px;
+}
+
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+
+.header_text{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.menu_header{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list{
+    display: flex;
+}
+
+.menu_link{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_link:hover{
+    color: rgb(168, 168, 168);
+    transition: color .2s ease-in;
+}
+
+.menu_pic{
+    margin: 0px 5px;
+}
+
+.phone{
+    transition: 0.5s;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    text-align: end;
+}
+
+.phone:hover{
+    opacity: 0.7;
+}
+
+/* intro */
+.intro_wrapper{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_line{
+    margin-top: 17px;
+    margin-bottom: 19px;
+}
+
+.intro_texts{
+    text-align: center;
+}
+
+.intro_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.intro_subtitle{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.intro_subtitle span{
+    color: blueviolet;
+}
+
+.intro_transfers{
+    display: block;
+    margin-top: 38px;
+}
+
+.intro_transfer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.transfer_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-left: 58px;
+}
+
+.business_plan{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-top: 69px;
+}
+
+
