@@ -1,10 +1,27 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"),
-        url("/assets/fonts/Montserrat-Medium.ttf") format("truetype"),
-        url("/assets/fonts/Montserrat-Bold.ttf") format("truetype"),
-        url("/assets/fonts/Montserrat-SemiBold.ttf") format("truetype"),
-        url("/assets/fonts/Montserrat-Black.ttf") format("truetype");
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Medium.ttf') format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-SemiBold.ttf') format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Bold.ttf') format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat;
+    src: local('Montserrat'), url('../fonts/Montserrat-Black.ttf') format("truetype");
+    font-weight: 900;
 }
 
 *{
@@ -495,4 +512,63 @@ li{
     background: white;
     filter: drop-shadow(0px -4px 21px rgba(0, 0, 0, 0.25)) drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.25));
     border-bottom: 7px solid;
+}
+
+/* section5 */
+.section5_wrapper{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.section5_title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.section5_subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 28px;
+}
+
+.sn_5_f_text{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.section5_features{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 47px;
+}
+
+.section5_feature1{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.section5_feature2{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.sn_5_f{
+    margin: 0 17px;
 }
